@@ -1,7 +1,6 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 import { useNavigate } from 'react-router-dom'
-import { Redirect } from 'react-router-dom'
 
 function PageNotFound() {
   const navigate = useNavigate()

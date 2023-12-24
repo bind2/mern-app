@@ -36,7 +36,7 @@ const ContextProvider = ({ children }) => {
     // jwt authentication to get th currently loggedin user data
     const userAuthentication = async () => {
         try {
-            const response = await axios.get("http://127.0.0.1:4000/user", {
+            const response = await axios.get(`${window.location.origin}/user`, {
                 headers: { Authorization: `Bearer ${token}` }
             })
 
@@ -134,7 +134,7 @@ const ContextProvider = ({ children }) => {
         try {
             setIsLoading(true)
             const response = await axios.post(
-                `http://localhost:4000/register`,
+                `${window.location.origin}/register`,
                 registerDetail
             );
 
@@ -171,7 +171,7 @@ const ContextProvider = ({ children }) => {
         try {
             setIsLoading(true)
             const response = await axios.post(
-                `http://localhost:4000/login`,
+                `${window.location.origin}/login`,
                 loginDetail
             );
 
