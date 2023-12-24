@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed62abf2.css",
+    "main.js": "/static/js/main.2c2f62fc.js",
+    "static/media/signup.jpg": "/static/media/signup.1e4196abf5971dfd59cc.jpg",
+    "static/media/login.jpg": "/static/media/login.c613c0856711420b74d5.jpg",
+    "static/media/payment-method.svg": "/static/media/payment-method.69e7ec34d1302e6b58b2cb1abe6b2f9c.svg",
+    "static/media/default-user-pic.jpg": "/static/media/default-user-pic.c900b9a4e7a258fe9bbc.jpg",
+    "static/media/redmi-k50i-img.webp": "/static/media/redmi-k50i-img.2d40c0308a96184e68fd.webp",
+    "static/media/memory-card-img.webp": "/static/media/memory-card-img.a96d377a43b610753ee9.webp",
+    "static/media/gift_card.svg": "/static/media/gift_card.ff0a9c327ab18b822f502f4d4dbe2f92.svg",
+    "static/media/help_center.svg": "/static/media/help_center.f34ab6e886288ea6b849d4538d5b199e.svg",
+    "static/media/seller.svg": "/static/media/seller.6edb86db108485f9e5086fc68df78c7e.svg",
+    "static/media/advertise.svg": "/static/media/advertise.b16c041aff85c2eec6fd40c059d5e76c.svg",
+    "index.html": "/index.html",
+    "main.ed62abf2.css.map": "/static/css/main.ed62abf2.css.map",
+    "main.2c2f62fc.js.map": "/static/js/main.2c2f62fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed62abf2.css",
+    "static/js/main.2c2f62fc.js"
+  ]
+}
