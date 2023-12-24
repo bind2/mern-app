@@ -1,0 +1,117 @@
+@import "../../sass/breakpoints/breakpoints.scss";
+
+footer {
+    background-color: #172337;
+
+    &>#footer {
+        padding: 2rem 1.5rem;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        &>div {
+            flex: 1 1 auto;
+            height: 100%;
+            padding: 0 2rem;
+            margin: 2rem 0;
+
+            @include MobileL{
+                padding: 0;
+            }
+
+            &>h4 {
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
+                color: #878787;
+            }
+
+            &>ul {
+                list-style: none;
+
+                &>li {
+                    &>a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 1.2rem;
+                        line-height: 2.4rem;
+                        font-weight: 300;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            &>address {
+                font-style: normal;
+
+                &>p {
+                    font-size: 1.2rem;
+                    line-height: 2.4rem;
+                    font-family: 300;
+
+                    &>a {
+                        text-decoration: none;
+                        color: #2874F0;
+                    }
+                }
+            }
+
+            &.mail-us {
+                border-left: 1px solid #3c4961;
+
+                @include Tablet {
+                    border-left: none;
+                }
+            }
+        }
+    }
+
+    &>hr {
+        border: none;
+        border-top: 1px solid #3c4961;
+        color: #3c4961;
+        overflow: visible;
+        text-align: center;
+        height: 1px;
+    }
+
+    &>#copyright {
+        padding: 3rem 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+
+        &>div {
+            &>a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                font-size: 1.4rem;
+                color: #fff;
+            }
+
+            &>span {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                font-size: 1.4rem;
+                color: #fff;
+            }
+        }
+
+        &>.payment-method{
+            &>span{
+                &>img{
+                    width: 28.6rem;
+                }
+            }
+        }
+    }
+}

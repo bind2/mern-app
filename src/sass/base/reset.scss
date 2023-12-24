@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    // scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #F1F2F4;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+body::-webkit-scrollbar{
+    width: 1rem;
+    background-color: #d4d5de;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background-color: #979cb4
+}

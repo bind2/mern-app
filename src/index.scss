@@ -1,0 +1,43 @@
+// vendors
+@import './sass/vendors/fonts.scss';
+
+
+// base
+@import './sass/base/reset.scss';
+
+
+// components
+@import './components/product-slider/ProductSlider.scss';
+@import './components/product-item/ProductItem.scss';
+@import './components/product-detail-slider/ProductDetailSlider.scss';
+@import './components/logout-confirmation-popup/LogoutConfirmationPopup.scss';
+
+
+// layout
+@import './layout/navbar/Navbar.scss';
+@import './layout/main/Main.scss';
+@import './layout/footer/Footer.scss';
+
+
+// auth
+@import './auth/AuthModal.scss';
+
+
+// admin
+@import './admin/AdminPanel.scss';
+
+
+// home
+@import './home/Home.scss';
+
+
+// pages
+@import './pages/product-detail/ProductDetail.scss';
+@import './pages/orders/Orders.scss';
+@import './pages/carts/Carts.scss';
+@import './pages/profile/Profile.scss';
+@import './pages/products/Products.scss';
+@import './pages/questions-and-answers/QuestionsAndAnswers.scss';
+@import './pages/rating-and-reviews/RatingAndReviews.scss';
+@import './pages/page-not-found/PageNotFound.scss';
+@import './pages//contact/Contact.scss';

@@ -1,0 +1,52 @@
+#contact {
+    &>.contact-form-container {
+        border: 1px solid red;
+
+        &>h1 {
+            text-align: center;
+        }
+
+        &>form {
+            &>.input-field {
+                // border: 1px solid red;
+                display: flex;
+                gap: .5rem;
+                flex-direction: column;
+
+                &>label {
+                    margin-left: 1rem;
+                }
+
+                &>input {
+                    padding: 1rem;
+                }
+            }
+
+            &>.message-field {
+                // border: 1px solid red;
+                display: flex;
+                flex-direction: column;
+
+                &>label {
+                    margin-left: 1rem;
+                }
+
+                &>textarea {
+                    padding: 1rem;
+                    resize: vertical;
+                }
+            }
+
+            &>.button-field{
+                border: 1px solid red;
+                display: flex;
+                align-self:flex-end;
+
+                &>button{
+                    // width: 100%;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}

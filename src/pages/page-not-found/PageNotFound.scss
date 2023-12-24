@@ -1,0 +1,105 @@
+#page-not-found {
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #000000;
+
+
+        .text-center {
+            text-align: center;
+
+            h1,
+            h3 {
+                margin: 10px;
+                cursor: default;
+
+                .fade-in {
+                    animation: fadeIn 2s ease infinite;
+                }
+            }
+
+            h1 {
+                font-size: 8em;
+                transition: font-size 200ms ease-in-out;
+                border-bottom: 1px dashed rgb(0, 0, 0);
+
+                span#digit1 {
+                    animation-delay: 200ms;
+                }
+
+                span#digit2 {
+                    animation-delay: 300ms;
+                }
+
+                span#digit3 {
+                    animation-delay: 400ms;
+                }
+            }
+
+            .buttons {
+                // border: 1px solid red;
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    background: transparent;
+                    border: 1px solid #000000;
+                    margin: 20px 0;
+                    outline: none;
+
+                    &>a {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        font-size: 1.1rem;
+                        font-weight: bold;
+                        color: rgb(0, 0, 0);
+                        text-transform: uppercase;
+                        transition: background-color 200ms ease-in;
+
+                        &:hover {
+                            background-color: #2874F0;
+                            color: #ffffff;
+                            cursor: pointer;
+                        }
+                    }
+
+                    &:hover {
+                        border: 1px solid #2874F0;
+                    }
+
+                    &.go-back-btn {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        font-size: 1.1rem;
+                        font-weight: bold;
+                        color: rgb(0, 0, 0);
+                        text-transform: uppercase;
+                        transition: background-color 200ms ease-in;
+    
+                        &:hover {
+                            background-color: #2874F0;
+                            color: #ffffff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    ;
+
+    100% {
+        opacity: 1;
+    }
+}

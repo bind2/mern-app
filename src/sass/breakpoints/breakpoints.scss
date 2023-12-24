@@ -1,0 +1,55 @@
+@mixin LaptopM {
+    @media(max-width: 1280px){
+        @content;
+    }
+}
+
+@mixin LaptopS {
+    @media(max-width: 1024px){
+        @content;
+    }
+}
+
+@mixin Tablet {
+    @media(max-width: 768px){
+        @content;
+    }
+}
+
+@mixin MobileL {
+    @media(max-width: 425px){
+        @content;
+    }
+}
+
+@mixin MobileM {
+    @media(max-width: 375px){
+        @content;
+    }
+}
+
+@mixin MobileS {
+    @media(max-width: 320px){
+        @content;
+    }
+}
+
+
+
+
+// $breakpoints: (
+//   laptopM: 1280px,
+//   laptopS: 1024px,
+//   tablet: 768px,
+//   mobileL: 425px,
+//   mobileM: 375px,
+//   mobileS: 320px
+// );
+
+// @each $breakpoint, $value in $breakpoints {
+//   @mixin #{to-upper-case($breakpoint)} {
+//     @media (max-width: $value) {
+//       @content;
+//     }
+//   }
+// }

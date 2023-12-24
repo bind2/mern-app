@@ -1,0 +1,26 @@
+// header section
+header {
+    &>#header {
+        border: 1px solid red;
+        height: calc(100vh - 5rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+#product-carousel{
+    border: 1px solid red;
+    padding: 0;
+
+    &>.carousel-wrapper{
+        background-color: #fff;
+        margin: 1.5rem 0;
+        padding-top: 1rem;
+
+        &>h2{
+            margin-left: 1.5rem;
+        }
+    }
+}

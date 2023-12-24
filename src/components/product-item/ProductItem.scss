@@ -1,0 +1,131 @@
+.product-cart {
+    border: 2px solid #D9DDF2;
+    cursor: pointer;
+
+    &>a {
+        display: inline-block;
+        color: #000;
+        // border: 1px solid red;
+        width: 100%;
+
+        &>.product-img-container {
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &>.product-img {
+                // border: 1px solid green;
+                width: 150px;
+
+                &>img {
+                    width: 100%;
+                    height: auto;
+                    transition: .3s;
+
+                    &:hover {
+                        scale: 1.05;
+                    }
+                }
+            }
+        }
+
+        &>.product-info {
+            // border: 1px solid red;
+            padding: 1rem;
+
+            &>.product-name {
+                // border: 1px solid red;
+                text-align: center;
+                padding: .5rem;
+            }
+
+            &>.product-content {
+                // border: 1px solid red;
+                display: flex;
+                justify-content: space-between;
+
+                &>.price-and-offer,
+                .rating-and-reviews {
+                    // border: 1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+
+                    &>span {
+                        // border: 1px solid red;
+                        height: 100%;
+                        padding: .5rem 0;
+                        display: flex;
+                        // gap: 1rem;
+                        // justify-content: center;
+                        align-items: center;
+
+                        &.price {
+                            &>h5 {
+                                font-size: 2rem;
+                            }
+                        }
+
+                        &.reviews {
+                            // background-color: red;
+                            font-size: 1.2rem;
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                        &.offer {
+                            display: flex;
+                            flex-direction: column;
+
+                            &>h5 {
+                                font-size: 1.6rem;
+                            }
+
+                            &>p {
+                                text-decoration: line-through;
+                                font-size: 1.4rem;
+                                color: rgb(59, 59, 59);
+                            }
+
+                            &>h5 {
+                                color: #038D63;
+                            }
+                        }
+
+
+                        &.rating {
+                            &>h6 {
+                                background-color: #038D63;
+                                border-radius: .4rem;
+                                padding: .3rem 1rem;
+                                color: #fff;
+                                font-size: 1.2rem;
+
+
+                                display: flex;
+                                align-items: center;
+                                gap: .5rem;
+                            }
+                        }
+                    }
+                }
+
+                // &>.rating-and-reviews{
+                //     border: 1px solid red;
+                //     display: flex;
+                //     flex-direction: column;
+                //     width: 50%;
+
+                //     &>span{
+                //         border: 1px solid red;
+                //         height: 100%;
+                //         display: flex;
+                //         justify-content: center;
+                //         align-items: center;
+                //     }
+                // }
+            }
+        }
+    }
+}
